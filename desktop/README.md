@@ -14,7 +14,6 @@ sudo apt install kde-standard
 <h3> Arch Based Systems </h3>
 
 ```
-
 sudo pacman -S xorg plasma plasma-wayland-session kde-applications
 ```
 
