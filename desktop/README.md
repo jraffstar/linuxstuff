@@ -24,3 +24,5 @@ sudo pacman -S xorg plasma plasma-wayland-session kde-applications
 <h5> If you have installed it successfully the default KDE Theme should look like this
 
 ![kdedesktop](assets/images/kdedesktop.png)
+
+  <h6> (Image from https://support.system76.com/articles/desktop-environment/) </h6>
