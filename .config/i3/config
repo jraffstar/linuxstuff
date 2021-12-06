@@ -1,5 +1,3 @@
-exec --no-startup-id feh --bg-scale /home/jensen/downloads/wallpaper.jpg
-
 # set modifier
 set $super Mod4
 set $alt Mod1
@@ -16,7 +14,7 @@ exec --no-startup-id xsettingsd &
 exec --no-startup-id compton -b
 
 # start a terminal
-bindsym $super+Return exec i3-sensible-terminal
+bindsym $super+Return exec alacritty
 
 # start dmenu (a program launcher)
 bindsym $super+Shift+d exec i3-dmenu-desktop --dmenu="dmenu -i -fn 'Noto Sans:size=8'"
@@ -110,7 +108,6 @@ bindsym $super+r mode "resize"
 
 # panel
 bar {
-
 	position top
         colors {
         background #2f343f
@@ -118,16 +115,18 @@ bar {
         separator #4b5262
 
         # colour of border, background, and text
-        focused_workspace       #2f343f #bf616a #d8dee8
-        active_workspace        #2f343f #2f343f #d8dee8
-        inactive_workspace      #2f343f #2f343f #d8dee8
-        urgent_workspacei       #2f343f #ebcb8b #2f343f
+        focused_workspace       #C0A1EE #C0A1EE #ffffff
+        active_workspace        #C0A1EE #C0A1EE #ffffff
+        inactive_workspace      #C0A1EE #C0A1EE #ffffff
+        urgent_workspacei       #C0A1EE #C0A1EE #ffffff
+#2f343f
+
     }
-        status_command i3status
+       
 }
 
 # window rules, you can find the window class using xprop
-for_window [class=".*"] border pixel 1
+for_window [class=".*"] border pixel 2.5x
 assign [class=URxvt] 1
 assign [class=Firefox|Transmission-gtk] 2
 assign [class=Thunar|File-roller] 3
