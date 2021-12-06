@@ -5,4 +5,8 @@ A compilation of my Linux customizations and stuff
 
 
 
+I use these configs with Void Linux (Might Change a lot)
+
+
+
 Some stuff taken from here and modified it to get it to work on my system. https://github.com/hnhx/dotfiles
