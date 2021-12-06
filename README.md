@@ -1,7 +1,7 @@
 # linuxstuff
 A compilation of my Linux customizations and stuff
+![](https://i.imgur.com/TPHbwdG.png/
 
-<h6> Screenshot Coming Soon! </h6>
 
-<h6> I3 CONFIG CURRENTLY OUTDATED </h6>
-My new scripts are stored in a vm. Ill get round to updating them soon ok.
+
+Some stuff taken from here and modified it to get it to work on my system. https://github.com/hnhx/dotfiles
