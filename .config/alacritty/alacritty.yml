@@ -1,8 +1,8 @@
 shell:
-  program: /bin/zsh/
+  program: /bin/zsh
   args:
-    ---login     
-    colors:
+    - --login  
+colors:
   primary:
     background: '0x282A36'
     foreground: '0xf8f8f2'
