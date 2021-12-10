@@ -107,18 +107,18 @@ mode "resize" {
 bindsym $super+r mode "resize"
 
 # panel
-#bar {
-#	position top
- #       colors {
-  #      background #2f343f
-   #     statusline #2f343f
-    #    separator #4b5262
+bar {
+	position top
+        colors {
+        background #2f343f
+        statusline #2f343f
+        separator #4b5262
 
         # colour of border, background, and text
-     #   focused_workspace       #C0A1EE #C0A1EE #ffffff
-      #  active_workspace        #C0A1EE #C0A1EE #ffffff
-       # inactive_workspace      #C0A1EE #C0A1EE #ffffff
-        #urgent_workspacei       #C0A1EE #C0A1EE #ffffff
+        focused_workspace       #C0A1EE #C0A1EE #ffffff
+        active_workspace        #C0A1EE #C0A1EE #ffffff
+        inactive_workspace      #C0A1EE #C0A1EE #ffffff
+        urgent_workspacei       #C0A1EE #C0A1EE #ffffff
 #2f343f
 
     }
@@ -147,4 +147,5 @@ client.background           #2f343f
 
 exec feh --bg-scale ~/Pictures/wallpaper/wallpaper2.png
 
-exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+#Polybar
+exec_always --no-startup-id ~/.config/polybar/launch.sh &
